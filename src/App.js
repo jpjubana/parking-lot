@@ -1,6 +1,7 @@
 import React from "react";
 import Topic from "./Topic";
 import TaskAdder from "./TaskAdder";
+import Component1 from "./Component1";
 import "./index.css";
 
 export default class App extends React.Component {
@@ -64,6 +65,7 @@ export default class App extends React.Component {
       return (
         <div>
           <h1>ParkingLot</h1>
+          <Component1 />
           <TaskAdder
             currentTopic={currentTopic}
             onAdd={this.addTopic}
